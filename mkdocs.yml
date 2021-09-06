@@ -28,10 +28,11 @@ nav:
     - 'index.md'
     - 'Getting Started':
         - 'overview/getting-started.md'
+        - 'overview/instant-deploy-orders.md'
+    - 'fscli/overview.md'
     - 'Integrations':
-        - 'integrations/getting-started.md'
         - 'Kubernetes':
-          - 'integrations/kubernetes/getting-started.md'
+          - 'integrations/kubernetes/overview.md'
         - 'Proxmox':
           - 'integrations/proxmox/getting-started.md'
 # extra:

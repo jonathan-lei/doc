@@ -14,7 +14,7 @@
     
     
       
-        <title>Virtctl - Console Documentation</title>
+        <title>Kubevirt Overview - Console Documentation</title>
       
     
     
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#virtctl" class="md-skip">
+        <a href="#kubevirt-overview" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Virtctl
+              Kubevirt Overview
             
           </span>
         </div>
@@ -148,6 +148,18 @@
         
   
   
+
+
+  <li class="md-tabs__item">
+    <a href="../../../fscli/overview/" class="md-tabs__link">
+      FSCLI
+    </a>
+  </li>
+
+      
+        
+  
+  
     
   
 
@@ -155,11 +167,18 @@
   
   
   
+    
+
+  
+  
+  
     <li class="md-tabs__item">
-      <a href="../../getting-started/" class="md-tabs__link md-tabs__link--active">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Integrations
       </a>
     </li>
+  
+
   
 
       
@@ -245,6 +264,18 @@
   
 
           
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../overview/instant-deploy-orders/" class="md-nav__link">
+        Instant Deploy Orders
+      </a>
+    </li>
+  
+
+          
         </ul>
       </nav>
     </li>
@@ -257,6 +288,21 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../../../fscli/overview/" class="md-nav__link">
+        FSCLI
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -264,14 +310,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
       
-      <label class="md-nav__link" for="__nav_3">
+      <label class="md-nav__link" for="__nav_4">
         Integrations
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Integrations" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
+        <label class="md-nav__title" for="__nav_4">
           <span class="md-nav__icon md-icon"></span>
           Integrations
         </label>
@@ -280,18 +326,6 @@
             
   
   
-  
-    <li class="md-nav__item">
-      <a href="../../getting-started/" class="md-nav__link">
-        Getting Started
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
     
   
   
@@ -299,14 +333,14 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" checked>
       
-      <label class="md-nav__link" for="__nav_3_2">
+      <label class="md-nav__link" for="__nav_4_1">
         Kubernetes
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Kubernetes" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_2">
+        <label class="md-nav__title" for="__nav_4_1">
           <span class="md-nav__icon md-icon"></span>
           Kubernetes
         </label>
@@ -327,12 +361,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Virtctl
+          Kubevirt Overview
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Virtctl
+        Kubevirt Overview
       </a>
       
         
@@ -350,16 +384,90 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#kubectl" class="md-nav__link">
+    Kubectl
   </a>
+  
+    <nav class="md-nav" aria-label="Kubectl">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commands-you-should-know" class="md-nav__link">
+    Commands you should know
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-results" class="md-nav__link">
+    Possible Results
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-a-server-via-kubectl" class="md-nav__link">
+    Deploying a server via Kubectl
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#virtctl" class="md-nav__link">
+    Virtctl
   </a>
+  
+    <nav class="md-nav" aria-label="Virtctl">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commands-you-should-know_1" class="md-nav__link">
+    Commands you should know
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-results_1" class="md-nav__link">
+    Possible Results
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resolving-issues" class="md-nav__link">
+    Resolving Issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Resolving Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unsynced-status" class="md-nav__link">
+    Unsynced Status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machines-in-initializing-status" class="md-nav__link">
+    Machines in "Initializing Status"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -385,14 +493,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
       
-      <label class="md-nav__link" for="__nav_3_3">
+      <label class="md-nav__link" for="__nav_4_2">
         Proxmox
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Proxmox" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_3">
+        <label class="md-nav__title" for="__nav_4_2">
           <span class="md-nav__icon md-icon"></span>
           Proxmox
         </label>
@@ -448,16 +556,90 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#kubectl" class="md-nav__link">
+    Kubectl
   </a>
+  
+    <nav class="md-nav" aria-label="Kubectl">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commands-you-should-know" class="md-nav__link">
+    Commands you should know
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-results" class="md-nav__link">
+    Possible Results
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-a-server-via-kubectl" class="md-nav__link">
+    Deploying a server via Kubectl
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#virtctl" class="md-nav__link">
+    Virtctl
   </a>
+  
+    <nav class="md-nav" aria-label="Virtctl">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#commands-you-should-know_1" class="md-nav__link">
+    Commands you should know
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possible-results_1" class="md-nav__link">
+    Possible Results
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resolving-issues" class="md-nav__link">
+    Resolving Issues
+  </a>
+  
+    <nav class="md-nav" aria-label="Resolving Issues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#unsynced-status" class="md-nav__link">
+    Unsynced Status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#machines-in-initializing-status" class="md-nav__link">
+    Machines in "Initializing Status"
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -474,7 +656,7 @@
               
                 
                 
-                <div id="mkdocs-encrypted-content" style="display:none">vWQsK5sjjiXr3XhQg5QjUA==;WKt06htN1rJzPc9TjadCQDWiLFj3eYoGjA5uahc+JwsF+02C4lQvRiPQwbmnuv/Pdy3E1mG2pl8aEu3N4rH0FdE5zJjZg7MHSXB2wtRHlFX/wpci2UDTuBirbY+1/XPgcRnSfHjaVIAVyMnQj4i9g3rFUF4we6NGAv4c9/Onhb7jjsPqCsKb4nossP495glIyp2SXsY8IVk7CRPLKtVuLgGiJGHrFs3ldkGuw1CBkcz2noqaACIQOe1aQJHBfTC2Q9Er08iKe3aTuXLaPqztrmyjv9C6eE3kGpv1gxRZbmZVe6s3mj7+QAWQwJUcG5I7J1IopD6knr3JN9iAZ5snteBlMLTigDmI6PmPzx2g/UDGe90QTSaI/JeA5Dn/FcjrSIFQtFeELeHYLj20v27kiFA147i0rgmBkGZGK6l/5624XgkL7TtABjiBDD6o511OsFrDFv1NYm2Rjaf6K23hq6OB/5RCGIKTYxM/kigR5K3g0ZQi3Vw+W28I5zzmKQmtUt0+H8bVjMyDU90pi/kAVTC5CEpg6c0sjNcCtlqWK2b9LRGzxKo4xkABP2pbMNOqBQBzIvs8Gf9LCOXzWkfEiBpQjnFa30uqzQ1lJvsMw/ZsFxMWe7eNjgTsh7Gsk+asj+k7R63DrBYHwRJSG1erkvC8xLCMiaACDC5KHzg2prL0D6Dw7SDC9I7MsV33xKwsKHMX4eUnbo+oTxd+9rlxPT1m/rl2Wy2U7C8GX5baU9H1y07G4q71RHKVJdV8VlX0bP5DvdG4ku8+CKDFZhwohi1beaDZajnyLEo8eE6YP8IbkZjPBWwCvxEfEKAVLi/+Z/OlGJDEPOeyX5454ptzPtS/dc2BNdxcGn87/ETpkLz30ui0cusyWqAI3MGusPns;^</div>
+                <div id="mkdocs-encrypted-content" style="display:none">wnm8jbKQQbmKL0e1EcR7Jw==;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;^</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form">
         <h1>This content is protected with AES encryption. </h1>
@@ -658,7 +840,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../getting-started/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Getting Started" rel="prev">
+        <a href="../../../fscli/overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: FSCLI" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -667,7 +849,7 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Getting Started
+              FSCLI
             </div>
           </div>
         </a>
