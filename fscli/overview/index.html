@@ -9,19 +9,19 @@
       
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
     
     
       
-        <title>Proxmox - Console Documentation</title>
+        <title>FSCLI - Console Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.802231af.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.802231af.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
         
           
           
@@ -57,7 +57,7 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
   
     
-    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#proxmox" class="md-skip">
+        <a href="#fscli" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +76,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Console Documentation" class="md-header__button md-logo" aria-label="Console Documentation" data-md-component="logo">
+    <a href="../.." title="Console Documentation" class="md-header__button md-logo" aria-label="Console Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 5v4h12V5M9 19h12v-4H9m0-1h12v-4H9M4 9h4V5H4m0 14h4v-4H4m0-1h4v-4H4v4z"/></svg>
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Proxmox
+              FSCLI
             
           </span>
         </div>
@@ -123,7 +123,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../.." class="md-tabs__link">
+    <a href="../.." class="md-tabs__link">
       Welcome
     </a>
   </li>
@@ -138,7 +138,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../overview/getting-started/" class="md-tabs__link">
+      <a href="../../overview/getting-started/" class="md-tabs__link">
         Getting Started
       </a>
     </li>
@@ -148,10 +148,12 @@
         
   
   
+    
+  
 
 
   <li class="md-tabs__item">
-    <a href="../../../fscli/overview/" class="md-tabs__link">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
       FSCLI
     </a>
   </li>
@@ -159,8 +161,6 @@
       
         
   
-  
-    
   
 
 
@@ -173,7 +173,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../kubernetes/overview/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../integrations/kubernetes/overview/" class="md-tabs__link">
         Integrations
       </a>
     </li>
@@ -202,7 +202,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Console Documentation" class="md-nav__button md-logo" aria-label="Console Documentation" data-md-component="logo">
+    <a href="../.." title="Console Documentation" class="md-nav__button md-logo" aria-label="Console Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 5v4h12V5M9 19h12v-4H9m0-1h12v-4H9M4 9h4V5H4m0 14h4v-4H4m0-1h4v-4H4v4z"/></svg>
@@ -221,7 +221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Welcome
       </a>
     </li>
@@ -257,7 +257,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../overview/getting-started/" class="md-nav__link">
+      <a href="../../overview/getting-started/" class="md-nav__link">
         Overview
       </a>
     </li>
@@ -269,7 +269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../overview/instant-deploy-orders/" class="md-nav__link">
+      <a href="../../overview/instant-deploy-orders/" class="md-nav__link">
         Instant Deploy Orders
       </a>
     </li>
@@ -288,11 +288,78 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../../fscli/overview/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          FSCLI
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         FSCLI
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-fscli-via-pip3" class="md-nav__link">
+    Installing FSCLI via pip3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-from-source" class="md-nav__link">
+    Installation From Source
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -303,14 +370,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       <label class="md-nav__link" for="__nav_4">
         Integrations
@@ -349,7 +414,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../kubernetes/overview/" class="md-nav__link">
+      <a href="../../integrations/kubernetes/overview/" class="md-nav__link">
         Kubevirt Overview
       </a>
     </li>
@@ -365,14 +430,12 @@
             
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
       
       <label class="md-nav__link" for="__nav_4_2">
         Proxmox
@@ -388,21 +451,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../integrations/proxmox/getting-started/" class="md-nav__link">
         Proxmox
       </a>
-      
     </li>
   
 
@@ -438,6 +491,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installing-fscli-via-pip3" class="md-nav__link">
+    Installing FSCLI via pip3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-from-source" class="md-nav__link">
+    Installation From Source
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -449,7 +544,7 @@
               
                 
                 
-                <div id="mkdocs-encrypted-content" style="display:none">Xb/7kNFBekNGjxUMhKMxJQ==;ePSQkD6xiM/oZ/tPR9kTyXwuhlHkZaJ+tYOie+khwpMMnGnPhA/MdTwOOUZcOGFqsSPesIQZpfr5pouoUpvRxw==;^</div>
+                <div id="mkdocs-encrypted-content" style="display:none">SSbzoAMnBydQL+92o4JYEg==;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;^</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form">
         <h1>This content is protected with AES encryption. </h1>
@@ -633,7 +728,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../kubernetes/overview/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Kubevirt Overview" rel="prev">
+        <a href="../../overview/instant-deploy-orders/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Instant Deploy Orders" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -642,11 +737,26 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Kubevirt Overview
+              Instant Deploy Orders
             </div>
           </div>
         </a>
       
+      
+        
+        <a href="../../integrations/kubernetes/overview/" class="md-footer__link md-footer__link--next" aria-label="Next: Kubevirt Overview" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Kubevirt Overview
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
@@ -669,10 +779,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.tabs", "search.suggest", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.tabs", "search.suggest", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.756773cc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.756773cc.min.js"></script>
       
     
   </body>

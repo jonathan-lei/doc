@@ -9,19 +9,19 @@
       
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
     
     
       
-        <title>Virtctl - Console Documentation</title>
+        <title>Instant Deploy Orders - Console Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.802231af.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.802231af.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.3f5d1f46.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
         
           
           
@@ -57,7 +57,7 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="light-blue">
   
     
-    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -65,7 +65,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#virtctl" class="md-skip">
+        <a href="#instant-deploy-orders" class="md-skip">
           Skip to content
         </a>
       
@@ -76,7 +76,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="Console Documentation" class="md-header__button md-logo" aria-label="Console Documentation" data-md-component="logo">
+    <a href="../.." title="Console Documentation" class="md-header__button md-logo" aria-label="Console Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 5v4h12V5M9 19h12v-4H9m0-1h12v-4H9M4 9h4V5H4m0 14h4v-4H4m0-1h4v-4H4v4z"/></svg>
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Virtctl
+              Instant Deploy Orders
             
           </span>
         </div>
@@ -123,26 +123,10 @@
 
 
   <li class="md-tabs__item">
-    <a href="../../.." class="md-tabs__link">
+    <a href="../.." class="md-tabs__link">
       Welcome
     </a>
   </li>
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../../../overview/getting-started/" class="md-tabs__link">
-        Getting Started
-      </a>
-    </li>
-  
 
       
         
@@ -156,10 +140,45 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../getting-started/" class="md-tabs__link md-tabs__link--active">
+      <a href="../getting-started/" class="md-tabs__link md-tabs__link--active">
+        Getting Started
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../fscli/overview/" class="md-tabs__link">
+      FSCLI
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../integrations/kubernetes/overview/" class="md-tabs__link">
         Integrations
       </a>
     </li>
+  
+
   
 
       
@@ -183,7 +202,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Console Documentation" class="md-nav__button md-logo" aria-label="Console Documentation" data-md-component="logo">
+    <a href="../.." title="Console Documentation" class="md-nav__button md-logo" aria-label="Console Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 5v4h12V5M9 19h12v-4H9m0-1h12v-4H9M4 9h4V5H4m0 14h4v-4H4m0-1h4v-4H4v4z"/></svg>
@@ -202,7 +221,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Welcome
       </a>
     </li>
@@ -215,12 +234,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
       
       <label class="md-nav__link" for="__nav_2">
         Getting Started
@@ -238,79 +259,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../overview/getting-started/" class="md-nav__link">
+      <a href="../getting-started/" class="md-nav__link">
         Overview
       </a>
     </li>
   
 
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
-      
-      <label class="md-nav__link" for="__nav_3">
-        Integrations
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Integrations" data-md-level="1">
-        <label class="md-nav__title" for="__nav_3">
-          <span class="md-nav__icon md-icon"></span>
-          Integrations
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../getting-started/" class="md-nav__link">
-        Getting Started
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-    
-  
-  
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
-      
-      <label class="md-nav__link" for="__nav_3_2">
-        Kubernetes
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Kubernetes" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_2">
-          <span class="md-nav__icon md-icon"></span>
-          Kubernetes
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
             
   
@@ -327,12 +281,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Virtctl
+          Instant Deploy Orders
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Virtctl
+        Instant Deploy Orders
       </a>
       
         
@@ -350,15 +304,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#orders" class="md-nav__link">
+    Orders
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#deletions" class="md-nav__link">
+    Deletions
   </a>
   
 </li>
@@ -367,6 +321,84 @@
   
 </nav>
       
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../fscli/overview/" class="md-nav__link">
+        FSCLI
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Integrations
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Integrations" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Integrations
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      <label class="md-nav__link" for="__nav_4_1">
+        Kubernetes
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Kubernetes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Kubernetes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/kubernetes/overview/" class="md-nav__link">
+        Kubevirt Overview
+      </a>
     </li>
   
 
@@ -385,14 +417,14 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
       
-      <label class="md-nav__link" for="__nav_3_3">
+      <label class="md-nav__link" for="__nav_4_2">
         Proxmox
         <span class="md-nav__icon md-icon"></span>
       </label>
       <nav class="md-nav" aria-label="Proxmox" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_3">
+        <label class="md-nav__title" for="__nav_4_2">
           <span class="md-nav__icon md-icon"></span>
           Proxmox
         </label>
@@ -403,7 +435,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../proxmox/getting-started/" class="md-nav__link">
+      <a href="../../integrations/proxmox/getting-started/" class="md-nav__link">
         Proxmox
       </a>
     </li>
@@ -448,15 +480,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
+  <a href="#orders" class="md-nav__link">
+    Orders
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
+  <a href="#deletions" class="md-nav__link">
+    Deletions
   </a>
   
 </li>
@@ -474,7 +506,7 @@
               
                 
                 
-                <div id="mkdocs-encrypted-content" style="display:none">f1C4J2y9J+mBtc+I7cTPcA==;KXB3nNDw7aJpkyM+Vu9Dq7byVERAjuJ9Qz/dYsX7c57Y4yz06Q+W8Sog66xpWQmzGSZUWjLG9aDkR8Tsb4zcaFXLMbDW5+Orjv1TIABFcvGfVkmXs0HCDzXVHP/VDvLTW6X8fw9Ja/sKWSTrvHoHQiPZXd04s2Uq+HXnRaq+kyRDNcKC623sbn2JhEPOxcJP0TS437i2kKCZ37tjfU4WsZ3QGUqJrv4jTwGmi7In1mqfKtxIKUJCh2dLxiEldotQ5ROg0NhoeEIFGGCMp854F+1PG5yqDJ9NS0BDqsML5RPvRJfxVROV3zY306Ly4owXOr+vnS3VxVQc8rsgzuSgqqeI450+yj9IbwgCL9ZNEGuN1bfQwgY9MfhTGRVURfjM/QDpv93dvqnDU79PEpAM6MjkbY19OS1hKEYoJRP5QoYJync8jL1F2i9WeB02XXEUVeio6QXEIEbMv0vOOPT8+UBZDq3o7qQoMBkHfrAPkznr3FEi//Bc1e/K1A1EJ6kuAxyeRqN34EP1BvzifFhDlBaUGXYqxks9jMYTGVSPHkp8vJk+Ha63/E1uPjmrPweXv81EBsQRQjrJZ3AjmhuqjEY4FEtC6HkjQfuw0PSOKSA2zTZUUO8GtCUqJe/vj17Xj/MiBITWN6iN8ZB4EFBAihiShSoTgORV8B5J60YKakWUexTpmDWpUbqTcaYSZmvjr2vetMmFVvL95sThbKQFY5eYxMbDgfDC1XuoGL722RZ334K7QoFp9g9XHGpLcOqbJHWI9deuXbPXXV7g1l5TG6wlDcJVdYKJsbA7OsSUK8qmkYhMb/1AnY4PtLA7XkMYboEZMrdaJkuUMrLVmQNLsMVhEMXygv2lgUeA+Hi8zVHlkZHicXVDZ5TI0VmFJo8e;^</div>
+                <div id="mkdocs-encrypted-content" style="display:none">11ben3zaSythQ0BEW8RWVA==;gtidyA5NLTXxU1IY6Gz9Zjdo/hqCH8FJTYx6LyXhupn5ssPEfhD1IDp+y+X8KSojChig3/48WVN25qsE/kkeEBdVE/Riy4n79WS9x0aqv183xj3ZsdIG1AFJRq9AhKLioS7siC+f0OgHTzlHcqAEXS+wDj1UCrIfgQfLtjVFCtWG/k75fLS/OTfHMKU4UpfnJ8sNPwkLJ7I5p7X6zKfYCnurzgxW9Ym7rU9O4ElOyCq4O/Fd2rdXrbr7Cj23gYpB/udXPV4jECK4NSAug9ciuYcEnKWH3zyJGvt+dM9gtPLdXzBM7z4mrK7qK6MLkYnXLVNjHAosQmAnEh+KTcQKjHCwlSSDHWUaapEw47nTfZMAElSR/aHdC54nqEQbb+Ir/U2rNWiGQa41H5BOIcJZwsgGcKX0oLEt2rIz5qm25kWe2r1qfJlB3nyBYjHjlFD6LFfX89p9mpW01KGnEp6ipibpbuC7Ud9Sgl1vetE9bs54k6PnB0b7drQW92JbWEMkuytdLmt4/tj2fsXW4KBnKvdDw6WkqCtkMqA1zX884ilL112sJL4NCowMT26S+HohAT5JpbcIK024Dzsvh8q39GPIetAP8gbdA+VkJ7MunPFPrZalSgO41TcWW4rrMzGjGIKB644BMvhg7faQMBQUgXCm7R3EdDlMy0/Mdv25VoxnNHYv56YkxKI8bU5sWDHeN6sfkmUkSdxNsDMhWcE4R4HD3BkqUw9KPcCRSvQE52Z8D4UM0i5EEmCQf/u9qZrvBge+4s8LsvlOgC07f7ydBsD0Nn6Ys+0Ea9FogXpGk3F+shykjJWm/vcbFXygWvUJ56YuLkhtdrVOcGAPZtvTwOJBoYe+H2fKHKYjExmxmM/GE+1pB+9aZi64DXAkhrEiM7hYq0Rj+5OSdWnF+Ak+Vax2k/MbLopMlwfY6U7AHUOZA8yeGF5z3Aqv4hTjAedWODUBbpF+b6OtwcmN1Km+79lP2ybl6hTNtGv3kJmw/6vofrml1sHpHa2VvHnmUf8aIi3qKVNdo2tsBtcqi5wq9SxPYMVX6Xy3EB5jf8GGgublaoIOhZgOo7XW/5qRV9ffbmhFg0mv4buWC+MkxmBZePBDplsauEx4fJ/bRvGUi5iJFRdXOubd9Tmf9Ac+LiTnMnNPqGnrncAxI1VU0O0vdfbHeDuZM5D5PfjsZgRlXyeJPRtLvSnBdcZiMDvt963OKqtxd1T8nZ+YLY47i9xXKH8Lk0SD1zvrCl3gQm4dbRBTMn5CDAHLY8Q3qLFRSalcOL2goCmeuzcgCdHsMbLnjkKk8VGAjgImmL+zIUA+t0dAwiCOKwHQX1HegEfqoS6vLO903U1k89260IxBUwqQMuGrhHxsi9IShOimfPsImfWyPEHXPs2RcjTTcrF3mUa8yT1d+PNznSdMt0MW03nXoTSc5Z6+ydsOTjJjSUX8OPQpQzqVSYD5zGL/uLhaklKleM9NLNQH2tXwhb6e4bVlZueYCT1v5TqQ3uQHmuhsVc+yrk7plsc2fAq3NI1zeOdxRe0e3hBUKqVhQkJKnZ9cxgR13skCJSX9lzjW0hjm9Ux7bccoJULKi9Tpt5r2kyVaE6Whsv6cuKULc/oCTYkmpQ==;^</div>
 <div id="mkdocs-decrypted-content">
     <form id="mkdocs-decrypt-form">
         <h1>This content is protected with AES encryption. </h1>
@@ -658,7 +690,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../../getting-started/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Getting Started" rel="prev">
+        <a href="../getting-started/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -667,20 +699,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Getting Started
+              Overview
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../proxmox/getting-started/" class="md-footer__link md-footer__link--next" aria-label="Next: Proxmox" rel="next">
+        <a href="../../fscli/overview/" class="md-footer__link md-footer__link--next" aria-label="Next: FSCLI" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Proxmox
+              FSCLI
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -709,10 +741,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.indexes", "navigation.tabs", "search.suggest", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.tabs", "search.suggest", "search.share"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.756773cc.min.js"></script>
+      <script src="../../assets/javascripts/bundle.756773cc.min.js"></script>
       
     
   </body>
