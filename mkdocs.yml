@@ -1,0 +1,47 @@
+site_name: Console Documentation
+theme:
+  name: material
+  palette:
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   toggle:
+    #     icon: material/weather-sunny
+    #     name: Switch to light mode
+    #   primary: blue
+    #   accent: light blue
+    # - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: blue
+      accent: light blue
+  icon:
+    logo: material/view-list
+  features:
+    # - navigation.instant
+    - navigation.indexes
+    - navigation.tabs
+    - search.suggest
+    - search.share
+nav:
+    - 'index.md'
+    - 'Getting Started':
+        - 'overview/getting-started.md'
+    - 'Integrations':
+        - 'integrations/getting-started.md'
+        - 'Kubernetes':
+          - 'integrations/kubernetes/getting-started.md'
+        - 'Proxmox':
+          - 'integrations/proxmox/getting-started.md'
+# extra:
+#   homepage: https://consoledock.com"
+
+plugins:
+  - encryptcontent:
+      title_prefix: ''
+      global_password: 'Go!200'
+      remember_password: True
+      disable_cookie_protection: True
+      password_button: True
+      password_button_text: 'Submit'
